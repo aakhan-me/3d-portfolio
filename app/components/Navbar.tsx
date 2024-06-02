@@ -41,19 +41,16 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<Link href="https://github.com/omunite215">
+					<Link href="https://github.com/aakhan-me">
 						<Image
-							src="/logo.png"
-							width={80}
-							height={80}
+							src="/logo.webp"
+							width={250}
+							height={150}
 							alt="logo"
 							priority
 							className="object-contain"
 						/>
 					</Link>
-					<p className="text-white text-[18px] font-bold cursor-pointer flex">
-						Om &nbsp; <span className="sm:block hidden ">| omunite215</span>
-					</p>
 				</div>
 
 				<ul className="list-none hidden sm:flex flex-row gap-10">

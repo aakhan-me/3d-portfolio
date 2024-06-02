@@ -29,16 +29,16 @@ const Contact = () => {
 		setLoading(true);
 		emailjs
 			.send(
-				"service_91ssn8g",
-				"template_jjegxdr",
+				"service_st3lowk",
+				"template_1ebwftb",
 				{
 					from_name: form.name,
-					to_name: "Om Patel",
+					to_name: "Awais A. Khan",
 					from_email: form.email,
-					to_email: "omunite21@gmail.com",
+					to_email: "info@awaisworks.com",
 					message: form.message,
 				},
-				"VeFeVdEHL9F9_i6xp",
+				"rrZcbuyDJ2FbOyYmD",
 			)
 			.then(() => {
 				setLoading(false);

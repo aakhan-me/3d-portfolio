@@ -56,8 +56,8 @@ const Feedbacks = () => {
 		<div className="mt-12 bg-black-100 rounded-[20px]">
 			<div className="padding bg-tertiary rounded-2xl min-h-[300px]">
 				<motion.div variants={textVariant()}>
-					<h2 className="sectionHeadText">Social Profiles</h2>
-					<p className="sectionSubText">
+					<h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Social Profiles</h2>
+					<p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
 						Click on social media icons to check out..
 					</p>
 				</motion.div>

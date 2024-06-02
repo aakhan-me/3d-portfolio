@@ -19,11 +19,11 @@ const services = [
 		icon: "/web.webp",
 	},
 	{
-		title: "UI Designer",
+		title: "DevOps",
 		icon: "/mobile.webp",
 	},
 	{
-		title: "UX Designer",
+		title: "UI/UX Designer",
 		icon: "/backend.webp",
 	},
 	{
@@ -89,11 +89,11 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Web Designer",
-		company_name: "A.V.M Auto",
-		icon: "/company/avm.webp",
-		iconBg: "#383E56",
-		date: "2020 -  2021",
+		title: "Web Developer",
+		company_name: "IPLEX Technologies",
+		icon: "/company/iplex.jpeg",
+		iconBg: "#000",
+		date: "2013 -  2018",
 		points: [
 			"Analyzing the needs of customer in a website.",
 			"Designing User Interface (UI) for the problem statement.",
@@ -102,16 +102,44 @@ const experiences = [
 		],
 	},
 	{
-		title: "Wordpress Developer",
-		company_name: "A.V.M Auto",
-		icon: "/company/avm.webp",
-		iconBg: "#E6DEDD",
+		title: "Embrace IT Pakistan",
+		company_name: "Software Engineer",
+		icon: "/company/embraceit.jpeg",
+		iconBg: "#fff",
+		date: "2018 - 2021",
+		points: [
+			"Provide technical guidance to development teams, ensuring the", 
+			"successful execution of projects",
+			"Independently work on personal software projects, showcasing individual initiative and expertise",
+			"Manage projects, ensuring timely delivery and adherence to quality standards",
+			"Communicate effectively with clients, addressing their needs and ensuring satisfaction",
+		],
+	},
+	{
+		title: "Strategic Systems International",
+		company_name: "Principle Software Engineer",
+		icon: "/company/ssi.jpg",
+		iconBg: "#fff",
 		date: "2021 - 2022",
 		points: [
-			"Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
-			"Analyzing feedbacks and fixing bugs.",
-			"Search Engine Optimization.",
-			"Design Maintainence and hosting maintenance.",
+			"Develop, document, and test software to meet end-users' needs and align with business goals",
+			"Provide technical guidance to development teams, fostering a collaborative and innovative environment",
+			"Take ownership of personal projects, demonstrating self-driven initiative",
+			"Collaborate effectively within a team, contributing to a positive and productive work environment",
+			"Offer mentorship to team members, sharing knowledge and expertise",
+		],
+	},
+	{
+		title: "Gubloo Technologies",
+		company_name: "Senior Software Engineer",
+		icon: "/company/gubloo.png",
+		iconBg: "#fff",
+		date: "2022 - 2023",
+		points: [
+			"Oversee the technical aspects of all projects, ensuring quality and efficiency",
+			"Independently work on personal software projects, showcasing individual initiative and expertise",
+			"Collaborate effectively within a team, contributing to a positive and productive work environment",
+			"Offer mentorship to team members, sharing knowledge and expertise",
 		],
 	},
 ];
@@ -120,53 +148,54 @@ const testimonials = [
 	{
 		id: 1,
 		testimonial:
-			"Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
-		name: "Om Patel",
-		image: "/socialmedia/behance.svg",
-		link: "https://www.behance.net/omthecreator",
+			"LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
+		name: "Awais Ahmed Khan",
+		image: "/socialmedia/linkedin.svg",
+		link: "https://www.linkedin.com/in/aakhanyousuf/",
 	},
 	{
 		id: 2,
 		testimonial:
-			"LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-		name: "Om Patel",
-		image: "/socialmedia/linkedin.svg",
-		link: "https://www.linkedin.com/in/om-patel-401068143/",
-	},
-	{
-		id: 3,
-		testimonial:
-			"Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
-		name: "Om Patel",
-		image: "/socialmedia/dribble.svg",
-		link: "https://dribbble.com/om2121",
-	},
-	{
-		id: 4,
-		testimonial:
-			"Also do check out my UI/UX Portfolio where I have shared by design studies.",
-		name: "Om Patel",
-		image: "/socialmedia/portfolio.svg",
-		link: "https://omthecreator.netlify.app/",
-	},
-	{
-		id: 5,
-		testimonial:
 			"Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-		name: "Om Patel",
+		name: "Awais Ahmed Khan",
 		image: "/tech/github.webp",
-		link: "https://github.com/omunite215",
+		link: "https://github.com/aakhan-me",
 	},
 ];
 
 const projects = [
 	{
-		name: "Random Quote Generator",
+		name: "Motivations AI Personality Assessment",
 		description:
-			"A Fully Responsive Random Quote generating website project given by Free Code Camp while completing Front-End Libraries Certifications built using React.JS , Bootstrap CSS and HTML.",
+			"It is the desire to do something because it is interesting, enjoyable, or personally meaningful. In the context of artificial intelligence (AI), intrinsic motivation is what drives an AI system to keep learning and improving itself.",
 		tags: [
 			{
-				name: "react",
+				name: "laravel",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "artificialintelligence",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "vanilajs",
+				color: "pink-text-gradient",
+			},
+		],
+		image: "/projectimg/motivations.png",
+		netlify_link: "https://motivationsai.com",
+	},
+	{
+		name: "Outside Chicago Website",
+		description:
+			"The Outside Chicago website served as a comprehensive guide to activities available outside the city, offering detailed descriptions, locations, and amenities for various destinations.",
+		tags: [
+			{
+				name: "php",
 				color: "blue-text-gradient",
 			},
 			{
@@ -174,76 +203,103 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 			{
-				name: "quoteapi",
+				name: "flexiblecontent",
 				color: "orange-text-gradient",
 			},
+			{
+				name: "vanilajs",
+				color: "red-text-gradient",
+			},
+			{
+				name: "customplugin",
+				color: "white-text-gradient",
+			},
+			{
+				name: "customtheme",
+				color: "green-text-gradient",
+			}
 		],
-		image: "/projectimg/quote.webp",
-		source_code_link:
-			"https://github.com/omunite215/FCC-Random-Quote-Generator",
-		netlify_link: "https://randomquotegeneratorbyom.netlify.app/",
+		image: "/projectimg/chicago.png",
+		netlify_link: "https://outsidechicago.com/",
 	},
 	{
-		name: "Admin Dashboard UI",
+		name: "Essence",
 		description:
-			"React Admin Dashboard is a stunning web application that has a beautiful User Interface and has been built using advanced JavaScript concepts, React, and Tailwind CSS which has different graphs, stats and themes.",
+			"ESSENCE Communications is the number one media, technology, and commerce company dedicated to Black women and inspires a global audience of more than 20 million through diverse storytelling and immersive original content.",
 		tags: [
 			{
-				name: "react",
+				name: "php",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "Syncfusion UI",
+				name: "vanilajs",
 				color: "orange-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "bootstrap",
 				color: "green-text-gradient",
 			},
+			{
+				name: "customplugin",
+				color: "white-text-gradient",
+			},
+			{
+				name: "customtheme",
+				color: "pink-text-gradient",
+			}
 		],
-		image: "/projectimg/dashboard.webp",
-		source_code_link: "https://github.com/omunite215/React-Admin-DashBoard",
-		netlify_link: "https://reactadmindashboardbyom.netlify.app/",
+		image: "/projectimg/essence.png",
+		netlify_link: "https://essence.com/",
 	},
 	{
-		name: "HooBank",
+		name: "Dermatological Care",
 		description:
-			"A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
+			"Dermatological care is critical to addressing health care inequity and we are expanding access to these services. Increasing access to dermatological care will allow for earlier detection of life-threatening conditions such as skin cancer and provide the preventative treatment necessary to help improve health inequities.",
 		tags: [
 			{
-				name: "react",
+				name: "php",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "bootstrap",
 				color: "green-text-gradient",
 			},
-		],
-		image: "/projectimg/hoobank.webp",
-		source_code_link: "https://github.com/omunite215/hoobank",
-		netlify_link: "https://hoobankbyom.netlify.app/",
-	},
-	{
-		name: "Provid A Youtube Clone",
-		description:
-			"Provid is a YouTube clone project built with React, Material UI, and Tailwind CSS. The platform has been designed with a stunning dark mode that enhances the viewing experience. The user interface is intuitive and easy to navigate, ensuring that users can easily find the content they're looking for.",
-		tags: [
 			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "materialui",
+				name: "customplugin",
 				color: "orange-text-gradient",
 			},
 			{
-				name: "rapidapi",
+				name: "customtheme",
+				color: "pink-text-gradient",
+			}
+		],
+		image: "/projectimg/usderma.png",
+		netlify_link: "https://usdermatologypartners.com",
+	},
+	{
+		name: "Jobs Portal Cointelegraph",
+		description:
+			"Cointelegrapgh is a company based in the US which specializes in The most recent news about the crypto industry at Cointelegraph. Latest news about bitcoin, Ethereum, blockchain, mining, cryptocurrency prices, and more",
+		tags: [
+			{
+				name: "php",
 				color: "blue-text-gradient",
 			},
+			{
+				name: "bootstrap",
+				color: "green-text-gradient",
+			},
+			{
+				name: "customplugin",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "customtheme",
+				color: "pink-text-gradient",
+			}
 		],
-		image: "/projectimg/provid.webp",
-		source_code_link: "https://github.com/omunite215/Provid-A-YouTube-Clone",
-		netlify_link: "https://providbyom.netlify.app/",
+		image: "/projectimg/cointelegraph.png",
+		netlify_link: "https://jobs.cointelegraph.com",
 	},
 	{
 		name: "A 3D Developer Portfolio",
@@ -268,8 +324,8 @@ const projects = [
 			},
 		],
 		image: "/projectimg/portfoliosample.webp",
-		source_code_link: "https://github.com/omunite215/portfolio",
-		netlify_link: "https://portfoliobyompatel.netlify.app/",
+		source_code_link: "https://github.com/aakhan-me/new-portfolio",
+		netlify_link: "https://awaisworks.com",
 	},
 ];
 

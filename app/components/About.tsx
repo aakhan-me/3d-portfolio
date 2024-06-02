@@ -46,25 +46,15 @@ const About = () => {
 	return (
 		<>
 			<motion.div variants={textVariant()}>
-				<p className="sectionSubText">Introduction</p>
-				<h2 className="styles.sectionHeadText">Overview.</h2>
+				<p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Introduction</p>
+				<h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Overview.</h2>
 			</motion.div>
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
 			>
-				As a talented Front-End Web Developer and UI/UX Designer, I have honed
-				my skills in working with a variety of JavaScript libraries, including
-				React.js, Next.js and Three.js. Through my experience, I have developed
-				a deep understanding of how these libraries can be leveraged to create
-				dynamic and engaging user interfaces. In addition, I am a quick learner
-				and have worked on numerous projects using popular CSS frameworks such
-				as Tailwind and Bootstrap. I am confident in my ability to create sleek
-				and responsive designs that meet the specific needs of any project. With
-				a keen eye for detail and a passion for delivering high-quality work, I
-				am dedicated to creating beautiful and user-friendly experiences that
-				delight users.
+				With over 10 years of experience in product management and ownership, coupled with a specialization in web development, I bring a versatile skill set to the table. As a dedicated team player, I thrive in collaborative environments while also excelling in independent project work. My expertise spans across a robust tech stack including PHP (Laravel, WordPress), JavaScript (React.js, Next.js, Alpine.js), and CSS (TailwindCSS, Bootstrap, Material UI). Additionally, I have a keen eye for quality assurance, with proficiency in writing test cases and conducting testing using tools like JMeter and Postman. Let's connect and explore opportunities for collaboration and growth!
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (

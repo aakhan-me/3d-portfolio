@@ -13,7 +13,7 @@ const ResumeButton = () => {
 				className=" font-medium text-center px-3 py-3 flex gap-1 justify-center rounded-md transition ease-in-out delay-150 bg-[#915EFF] hover:-translate-y-1 hover:scale-110 hover:bg-purple-600 duration-300"
 				onClick={() =>
 					alert(
-						"Now you will see a Mega.nz link. Click on download to download the Resume in PDF Format. Thanks for visit!!",
+						"Now you will see a Google Drive link. Click on download to download the Resume in PDF Format. Thanks for visit!!",
 					)
 				}
 			>

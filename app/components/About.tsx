@@ -54,7 +54,7 @@ const About = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
 			>
-				With over 10 years of experience in product management and ownership, coupled with a specialization in web development, I bring a versatile skill set to the table. As a dedicated team player, I thrive in collaborative environments while also excelling in independent project work. My expertise spans across a robust tech stack including PHP (Laravel, WordPress), JavaScript (React.js, Next.js, Alpine.js), and CSS (TailwindCSS, Bootstrap, Material UI). Additionally, I have a keen eye for quality assurance, with proficiency in writing test cases and conducting testing using tools like JMeter and Postman. Let's connect and explore opportunities for collaboration and growth!
+				With over 10 years of experience in product management and ownership, coupled with a specialization in web development, I bring a versatile skill set to the table. As a dedicated team player, I thrive in collaborative environments while also excelling in independent project work. My expertise spans across a robust tech stack including PHP (Laravel, WordPress), JavaScript (React.js, Next.js, Alpine.js), and CSS (TailwindCSS, Bootstrap, Material UI). Additionally, I have a keen eye for quality assurance, with proficiency in writing test cases and conducting testing using tools like JMeter and Postman. Let&apos;s connect and explore opportunities for collaboration and growth!
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
